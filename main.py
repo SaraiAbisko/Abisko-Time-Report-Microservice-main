@@ -143,7 +143,6 @@ def get_trabajo_realizado():
 
 
 # Get Views
-
 @app.get("/obtener-client-modelo")
 def get_client_modelo():
     return get_client_modelo_instance()
